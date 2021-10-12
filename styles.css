@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 104px 0 104px;
+}
+
+#right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right-header a {
+    margin: 8px;
+}
+
+#hero-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 78px 104px 78px 104px;
+}
+
+#hero-heading h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#left-hero p,
+#right-header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#left-hero button {
+    border: 0;
+}
+
+/* STILL NEED TO MAKE this selector/div take up a mininum and maximum area
+    I think it should fill the available area.
+*/
+#right-hero {
+    background-color: grey;
+    width: 400;
+    height: 600;
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* BUTTONS NEED ROUNDED CORNERS */
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 8px 16px 8px 16px;
+}
+
+#cta button {
+    border-color: white;
+}
+
