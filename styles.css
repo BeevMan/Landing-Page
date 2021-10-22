@@ -80,12 +80,14 @@ header p {
 button {
     background-color: #3882F6;
     font-size: 18px;
+    font-weight: bold;
     color: #E5E7EB;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 5px;
 }
 
 #cta button {
-    border-color: white;
+    border: 2px solid white;
 }
 
 #information {
@@ -124,7 +126,7 @@ h2 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 112px;
+    padding-top: 104px;
 }
 
 #quote {
@@ -166,6 +168,7 @@ h2 {
     border: 96px solid #3882F6;
     border-top: 24px solid #3882F6;
     border-bottom: 24px solid #3882F6;
+    border-radius: 10px;
 }
 
 h3 {
